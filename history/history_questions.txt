@@ -9,15 +9,15 @@ grade_9|The members of which ethnic group were once forced to pay a head tax to 
 grade_9|What is the name of the Metis leader who was hanged by the federal government in 1885?A)Jame Cabot B)Christopher Columbus C)Louis Riel|C
 grade_9|What term is commonly used to refer to early French fur traders in Canada? A)Loyalists B)Voyageurs C)Enterpreneur|B
 grade_10|Who was the first canadian prime minister? A)John A. MacDonald B)Pierre Trudo C)John MacKenzie |A
-grade_10|
-grade_10|
-grade_10|
-grade_10|
-grade_10|
-grade_10|
-grade_10|
-grade_10|
-grade_10|
+grade_10|A cenotaph is a memorial to Canadian soldiers who were killed in the wars. A)True B)False |A 
+grade_10|After the Pacific Scandal, Macdonald never was Prime Minister again A)True B)False |B 
+grade_10|Alberta was the last province to join Confederation. A)True B)False |B
+grade_10|All land in Western Canada was free before 1914. A)True B)False |B
+grade_10|Another name for Bolsheviks or Russian Communists was "Greens". A)True B)False |B
+grade_10|Before 1930, Chinese were allowed into Canada only if they paid a head tax. A)True B)False |A 
+grade_10|Canada entered World War I as an ally of the Triple Alliance. A)True B)False |B 
+grade_10|The Red Baron was a famous German fighter pilot who survived WW I. A)True B)False |B
+grade_10|Canada's constitution was called the BNA Act. A)True B)False |A 
 grade_11|
 grade_11|
 grade_11|
