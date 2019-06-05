@@ -18,16 +18,16 @@ grade_10|Before 1930, Chinese were allowed into Canada only if they paid a head 
 grade_10|Canada entered World War I as an ally of the Triple Alliance. A)True B)False |B 
 grade_10|The Red Baron was a famous German fighter pilot who survived WW I. A)True B)False |B
 grade_10|Canada's constitution was called the BNA Act. A)True B)False |A 
-grade_11|
-grade_11|
-grade_11|
-grade_11|
-grade_11|
-grade_11|
-grade_11|
-grade_11|
-grade_11|
-grade_11|
+grade_11|What are the two official languages of Canada? A)English&French B)English&German C)English&Prussian|A
+grade_11|What does FLQ stand for?A) Fleur de Lys Quebec B)Front de Liberation du Quebec C)Fun and Liquor Quest|B
+grade_11|When was Black Tuesday and what did it represent?A)May. 4/1929; when the stock markets crashed B)Oct. 29/1929; when the stock markets crashed C)Oct. 29/1929; when Canada opened its immigration doors|B
+grade_11|What were three (3) major inventions of the 1920s in Canada?A)Toilet, aviation, t.v B)Automobile, t.v, radio C)Automobile, aviation, radio|C
+grade_11|Who won a nobel peace prize for peacemaking during the Suez Crisis?A)Fred Loft B)Richard Bennet C)Lester B. Pearson|C
+grade_11|What year did the Halifax explosion occur? A)1917 B)1845 C)2001|A
+grade_11|Which is Canada's biggest province?A)Ontario B)Quebec C)Newfoundland|B
+grade_11|Who was the first woman elected to the House of Commons in 1921? A)Agnes McPhail B)Thérèse Casgrain C)Doris Anderson|A
+grade_11|What crazy event occurred in the 1987 World Junior Championship hockey tournament preventing Canada a chance at gold?A)The team got food poisoning B)There was no crazy event, they won gold C)They got in a bench brawl which got them disqualified|C
+grade_11|When was Lacrosse invented?A)1636 B)1534 C)1926|A
 grade_12|
 grade_12|
 grade_12|
