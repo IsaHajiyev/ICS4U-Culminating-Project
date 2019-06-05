@@ -1,1 +1,40 @@
+grade_9|Who is Canada's Prime Minister? A)Stephen Harper B)Dalton McGuinty C)Justin Trudeau|C
+grade_9|What is the captial of Canada? A)Toronto B)Montreal C)Ottawa|C
+grade_9|Canada entered into Confederation in....  A)1667 B)1967 C)1867|C
+grade_9|Which country took control of Quebec away from France, by winning the battle of the Plains of Abraham? A)Britain B)Germany C)Russia |A
+grade_9|What was the name of the route to Canada taken by blacks escaping slavery in the US? A)TransCanada Highway B)Underground Railway C)St. Lawrence Seaway|A
+grade_9|Which province was the last to join Confederation? A)Newfoundland B)Ontario C)Manitoba|A
+grade_9|Remembrance Day in Canada falls on November 11. November 11 was the last day of which war? A)Korean War B)WW1 C)Vietnam War|B
+grade_9|The members of which ethnic group were once forced to pay a head tax to immigrate to Canada? A)Chinese B)Blacks C)Aboriginals|A
+grade_9|What is the name of the Metis leader who was hanged by the federal government in 1885?A)Jame Cabot B)Christopher Columbus C)Louis Riel|C
+grade_9|What term is commonly used to refer to early French fur traders in Canada? A)Loyalists B)Voyageurs C)Enterpreneur|B
 grade_10|Who was the first canadian prime minister? A)John A. MacDonald B)Pierre Trudo C)John MacKenzie |A
+grade_10|
+grade_10|
+grade_10|
+grade_10|
+grade_10|
+grade_10|
+grade_10|
+grade_10|
+grade_10|
+grade_11|
+grade_11|
+grade_11|
+grade_11|
+grade_11|
+grade_11|
+grade_11|
+grade_11|
+grade_11|
+grade_11|
+grade_12|
+grade_12|
+grade_12|
+grade_12|
+grade_12|
+grade_12|
+grade_12|
+grade_12|
+grade_12|
+grade_12|
