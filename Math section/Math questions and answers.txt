@@ -1,0 +1,37 @@
+x and y intercepts:
+What is the y intercept: f(x) = (x+4)^2 – 1?		A: (0,15)
+What is the x intercept: f(x) = x^2-8x+16?		A: (4,0)
+What is the y intercept: f(x) = x^2+4x-3?		A: (0,-3)
+What are one of the x intercepts: f(x) = x^2+5-9?	A: (2,0) or (-2, 0)
+What is the y intercept: f(x) = (x+5)(x+6)?		A: (0,30)
+What are one of the x intercepts: f(x) = (x-8)^2 – 4?	A: (6,0) or (10,0)
+What is the y intercept: f(x) = x^2+4x-8?		A: (0,-8)
+What are one of the x intercepts: f(x) = x^2 – 3+2?	A: (1,0) or (-1, 0)
+What are one of the x intercepts: f(x) = (x-4)(x+5)?	A: (-5,0) or (4,0)
+What is the y intercept: f(x) = (x+2)^2 – 7?		A: (0,15)
+What is the y intercept: f(x) = (x+2)^2 – 7?		A: (0,-3)
+What is the y intercept: f(x) = (x-7)(x-8)?		A: (0,56)
+Functions questions:
+Is x=y^2+4y-5 a function? a)True b)False |b
+Is y = -2(x – 3)^2 – 9 a function? a)True b)False |a
+Is x^2+y^2=36 a function? a)True b)False |b
+Is f(t) = -t+3t-7 a function? a)True b)False |a
+Is x^2+y^2=81 a function? a)True b)False |b
+Is f(m) = 3(m+4)^2 - 2 a function? a)True b)False |a
+What is the parent function of x^2+5x-6? A: f(x)=x^2
+What is the parent function of 5x-8? A: f(x)=x
+What is the parent function of |x-5|=3? A: f(x)=|x|
+The domain is related to the y axis of a function. a)True b)False |b
+The range is related to the y axis of a function. a)True b)False |a
+Sin, cos and tan ratios:
+Calculate sin 55 to 3 decimal places(round the last decimal if necessary) A: 0.819
+Calculate cos 74 to 3 decimal places(round the last decimal if necessary) A: 0.276
+Calculate tan 23 to 3 decimal places(round the last decimal if necessary) A: 0.424
+Calculate sin^-1(0.879) to a whole number(round if necessary) A: 62 
+Calculate cos^-1(0.7) to a whole number(round if necessary) A: 46
+Calculate tan^-1(0.867543) to a whole number(round if necessary) A: 41 
+Calculate csc 45 to 3 decimal places(round the last decimal if necessary) A: 1.414
+Calculate sec 32 to 3 decimal places(round the last decimal if necessary) A: 1.179
+Calculate cot 63 to 3 decimal places(round the last decimal if necessary) A: 0.510
+Calculate csc 29 to 3 decimal places(round the last decimal if necessary)A: 2.063
+Calculate sec 76 to 3 decimal places(round the last decimal if necessary) A: 4.134
