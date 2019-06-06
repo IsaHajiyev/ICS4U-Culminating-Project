@@ -11,6 +11,7 @@ What are one of the x intercepts: f(x) = (x-4)(x+5)?	A: (-5,0) or (4,0)
 What is the y intercept: f(x) = (x+2)^2-7?		A: (0,-3)
 What is the y intercept: f(x) = (x-7)(x-8)?		A: (0,56)
 What is the y intercept: f(x) = (x+4)^2-7? 		A: (0,9)
+
 Functions questions:
 Is x=y^2+4y-5 a function? a)True b)False |b
 Is y = -2(x-3)^2-9 a function? a)True b)False |a
@@ -23,6 +24,7 @@ What is the parent function of 5x-8? A: f(x)=x
 What is the parent function of |x-5|=3? A: f(x)=|x|
 The domain is related to the y axis of a function. a)True b)False |b
 The range is related to the y axis of a function. a)True b)False |a
+
 Sin, cos and tan ratios:
 Calculate sin 55 to 3 decimal places(round the last decimal if necessary) A: 0.819
 Calculate cos 74 to 3 decimal places(round the last decimal if necessary) A: 0.276
