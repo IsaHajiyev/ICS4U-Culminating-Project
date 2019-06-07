@@ -27,14 +27,14 @@ grade_11|What year did the Halifax explosion occur? A)1917 B)1845 C)2001|A
 grade_11|Which is Canada's biggest province?A)Ontario B)Quebec C)Newfoundland|B
 grade_11|Who was the first woman elected to the House of Commons in 1921? A)Agnes McPhail B)Thérèse Casgrain C)Doris Anderson|A
 grade_11|What crazy event occurred in the 1987 World Junior Championship hockey tournament preventing Canada a chance at gold?A)The team got food poisoning B)There was no crazy event, they won gold C)They got in a bench brawl which got them disqualified|C
-grade_11|When was Lacrosse invented?A)1636 B)1534 C)1926|A
-grade_12|
-grade_12|
-grade_12|
-grade_12|
-grade_12|
-grade_12|
-grade_12|
-grade_12|
-grade_12|
-grade_12|
+grade_11|In World War I, most of the casualties were caused byA)dreadnoughts B)machine guns C)artillery guns|C
+grade_12|Why was Austria such a "bully" after the assassination of Arch-duke Franz Ferdinand?A)Austria wanted to conquer Serbia B)Austria wanted to start a world war C)Austria feared nationalism would destroy its empire|C
+grade_12|An "ace" was a fighter pilot who shot down:A)5 planes B)10 planes  C)2 planes|A
+grade_12|Income Tax was introduced to help pay for WW I.A)True B)False |A
+grade_12|The Red Scare was A)worry the Allies would lose WW I B)Worry Communists would overthrow the government of Canada C)panic caused by a epidemic of the Spanish Flu |B
+grade_12|Which of the following person was assassinated by the Fenians:A) Pierre Laporte  B)Thomas Darcy McGee C)Issac Brock |B
+grade_12|Which item was not a WW I weapon A)Big Bertha B)U boat C)Atomic Bomb|C
+grade_12|The Northwest or Riel Rebellion was between Canada and the A)Metis B)Fenians C)Americans|A
+grade_12|The name "Kanata" in native language meant: A)land of deep snow B)big river C)village|C
+grade_12|The last battle fought in Canada was the A)Battle of the Plains of Abraham B)third Battle of Mackinaw Island C)Battle of Batoche|C
+grade_12|The last name of Arch-duke Franz Ferdinand was A)Kaiser B)Hapsburg C)He didn't have a last name|B
