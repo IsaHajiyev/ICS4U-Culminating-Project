@@ -61,6 +61,6 @@ class InitPage(tk.Frame):
 if __name__ == "__main__":
     app = TriviaGame()
     #size of the window
-    app.geometry("700x600") 
+    app.geometry("850x600") 
     app.mainloop()
     
