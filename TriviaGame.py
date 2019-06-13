@@ -2,6 +2,7 @@ import tkinter as tk
 from history.HistoryGUI import*
 from history.Trivia import*
 from Math.MathGUI import*
+from Chemistry.ChemGUI import*
 
 class TriviaGame(tk.Tk):
 
@@ -13,7 +14,7 @@ class TriviaGame(tk.Tk):
         container.grid_rowconfigure(0, weight = 1)
         container.grid_columnconfigure(0, weight = 1)
         self.frames = {}
-        for frame in (InitPage, HistoryGUI, MathGUI):
+        for frame in (InitPage, HistoryGUI, MathGUI, ChemGUI):
             page_name = frame.__name__
             frame = frame(parent = container, controller=self)
             self.frames[page_name] = frame
@@ -46,7 +47,7 @@ class InitPage(tk.Frame):
         mathButton.config( height = 2, width = 20 )
         mathButton.pack()
 
-        chemButton = tk.Button(self, text="Chemistry Trivia")
+        chemButton = tk.Button(self, text="Chemistry Trivia", command=lambda: controller.show_frame("ChemGUI"))
         chemButton.config( height = 2, width = 20 )
         chemButton.pack()
 
@@ -61,6 +62,6 @@ class InitPage(tk.Frame):
 if __name__ == "__main__":
     app = TriviaGame()
     #size of the window
-    app.geometry("850x600") 
+    app.geometry("700x600") 
     app.mainloop()
     

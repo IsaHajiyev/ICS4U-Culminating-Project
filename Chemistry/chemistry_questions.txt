@@ -1,0 +1,15 @@
+grade_10|What is calorimetry used for? A) Exchange Heat B) Increase Heat C) Remove Heat D) (0,22)|D
+grade_10|What is the formula used to calculate transferred heat? A) Q/MCdeltaT B) MC/QdeltaT C) QmcdeltaT D) deltaT/Qmc|C
+grade_10|What is a Calorimeter? A) A device which checks temperature B) Measures Heat C) Checks type of element D) Releases Energy|B
+grade_10|What is Thermochemistry? A) Study of Heat Energy B) Study of Chemicals C) Study of Reaction D) Study of Chemistry|A
+grade_10|How many ways are there to calculate Hess\'s Law? A) One B) Two C) Three D) None|B
+grade_10|What is the total energy change from Hess\'s law dependent on? A) Initial and Final Stages B) Intermedium Stages C) Reaction Route D) Final Stages|A
+grade_10|How many factors modify rate of chemical reaction? A) Three B) Four C) Seven D) Five|D
+grade_10|Which of these factors is NOT a factor that modifies the rate of chemical reaction? A) Temperature B) Speed C) Pressure D) Presence of a Catalyst|B
+grade_10|Which is a requirement for Equilibrium? A) Static Temperature B) Static Pressure C) Constant Temperature and External Pressure D) Constant Addition of Substances|C
+grade_10|What is the equation for Reaction Quotient? A) Products * Reactants B) Reactants + Products C) Products - Reactants D) Products/Reactants|D
+grade_10|What does Boyle\'s Law state? A) As pressure increases, volume increases. B) As volume decreases, pressure decreases. C) As pressure increases, volume decreases D) None of the Above|C
+grade_10|The Law of Equilibrium states that: A) K cannot be 0 or under B) The value of K can be found without experimentation C) A large value of K prefers reactants at equilibrium D) A small value of K prefers products at equilibrium|A
+grade_10|Which state of matter is not included in the K calculation? A) Gas B) Solid C) Plasma D) Liquid|D
+grade_10|Which is true about Acids? A) They are always liquid B) They can never react with carbonates C) They have a bitter taste D) They react with metal to produce hydrogen gas|D
+grade_10|Which is false about Bases? A) They can be liquid or solid B) They do not react with metals to make hydrogen gas C) They are terrible conductors of electricity D) Dissolves in water to produce hydroxide ions|C
