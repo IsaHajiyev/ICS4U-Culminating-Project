@@ -1,8 +1,8 @@
 import tkinter as tk
 from history.HistoryGUI import*
-from history.Trivia import*
 from Math.MathGUI import*
-from Chemistry.ChemGUI import*
+from chem.ChemGUI import*
+from core.Trivia import*
 
 class TriviaGame(tk.Tk):
 
@@ -62,6 +62,6 @@ class InitPage(tk.Frame):
 if __name__ == "__main__":
     app = TriviaGame()
     #size of the window
-    app.geometry("700x600") 
+    app.geometry("600x500") 
     app.mainloop()
     
