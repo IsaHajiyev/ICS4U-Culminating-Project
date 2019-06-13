@@ -22,7 +22,7 @@ grade_10|Math Question 5 grade_10|False
 grade_10|Math Question 6 grade_10|True
 grade_10|Math Question 7 grade_10 |False
 grade_10|Math Question 8 grade_10|True
-x and y intercepts|What is the y intercept: f(x) = (x-7)(x-8)?(0,56)|True
+grade_10|What is the y intercept: f(x) = (x-7)(x-8)?(0,56)|True
 grade_10|Math Question 10 grade_10|False
 
 grade_11|Math Question 1 grade_11|False
