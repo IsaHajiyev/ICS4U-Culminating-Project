@@ -1,40 +1,21 @@
-grade_9|Who is Canada's Prime Minister? A)Stephen Harper B)Dalton McGuinty C)Justin Trudeau|C
-grade_9|What is the captial of Canada? A)Toronto B)Montreal C)Ottawa|C
-grade_9|Canada entered into Confederation in....  A)1667 B)1967 C)1867|C
-grade_9|Which country took control of Quebec away from France, by winning the battle of the Plains of Abraham? A)Britain B)Germany C)Russia |A
-grade_9|What was the name of the route to Canada taken by blacks escaping slavery in the US? A)TransCanada Highway B)Underground Railway C)St. Lawrence Seaway|A
-grade_9|Which province was the last to join Confederation? A)Newfoundland B)Ontario C)Manitoba|A
-grade_9|Remembrance Day in Canada falls on November 11. November 11 was the last day of which war? A)Korean War B)WW1 C)Vietnam War|B
-grade_9|The members of which ethnic group were once forced to pay a head tax to immigrate to Canada? A)Chinese B)Blacks C)Aboriginals|A
-grade_9|What is the name of the Metis leader who was hanged by the federal government in 1885?A)Jame Cabot B)Christopher Columbus C)Louis Riel|C
-grade_9|What term is commonly used to refer to early French fur traders in Canada? A)Loyalists B)Voyageurs C)Enterpreneur|B
-grade_10|Who was the first canadian prime minister? A)John A. MacDonald B)Pierre Trudo C)John MacKenzie |A
-grade_10|A cenotaph is a memorial to Canadian soldiers who were killed in the wars. A)True B)False |A 
-grade_10|After the Pacific Scandal, Macdonald never was Prime Minister again A)True B)False |B 
-grade_10|Alberta was the last province to join Confederation. A)True B)False |B
-grade_10|All land in Western Canada was free before 1914. A)True B)False |B
-grade_10|Another name for Bolsheviks or Russian Communists was "Greens". A)True B)False |B
-grade_10|Before 1930, Chinese were allowed into Canada only if they paid a head tax. A)True B)False |A 
-grade_10|Canada entered World War I as an ally of the Triple Alliance. A)True B)False |B 
-grade_10|The Red Baron was a famous German fighter pilot who survived WW I. A)True B)False |B
-grade_10|Canada's constitution was called the BNA Act. A)True B)False |A 
-grade_11|What are the two official languages of Canada? A)English&French B)English&German C)English&Prussian|A
-grade_11|What does FLQ stand for?A) Fleur de Lys Quebec B)Front de Liberation du Quebec C)Fun and Liquor Quest|B
-grade_11|When was Black Tuesday and what did it represent?A)May. 4/1929; when the stock markets crashed B)Oct. 29/1929; when the stock markets crashed C)Oct. 29/1929; when Canada opened its immigration doors|B
-grade_11|What were three (3) major inventions of the 1920s in Canada?A)Toilet, aviation, t.v B)Automobile, t.v, radio C)Automobile, aviation, radio|C
-grade_11|Who won a nobel peace prize for peacemaking during the Suez Crisis?A)Fred Loft B)Richard Bennet C)Lester B. Pearson|C
-grade_11|What year did the Halifax explosion occur? A)1917 B)1845 C)2001|A
-grade_11|Which is Canada's biggest province?A)Ontario B)Quebec C)Newfoundland|B
-grade_11|Who was the first woman elected to the House of Commons in 1921? A)Agnes McPhail B)Thérèse Casgrain C)Doris Anderson|A
-grade_11|What crazy event occurred in the 1987 World Junior Championship hockey tournament preventing Canada a chance at gold?A)The team got food poisoning B)There was no crazy event, they won gold C)They got in a bench brawl which got them disqualified|C
-grade_11|In World War I, most of the casualties were caused byA)dreadnoughts B)machine guns C)artillery guns|C
-grade_12|Why was Austria such a "bully" after the assassination of Arch-duke Franz Ferdinand?A)Austria wanted to conquer Serbia B)Austria wanted to start a world war C)Austria feared nationalism would destroy its empire|C
-grade_12|An "ace" was a fighter pilot who shot down:A)5 planes B)10 planes  C)2 planes|A
-grade_12|Income Tax was introduced to help pay for WW I.A)True B)False |A
-grade_12|The Red Scare was A)worry the Allies would lose WW I B)Worry Communists would overthrow the government of Canada C)panic caused by a epidemic of the Spanish Flu |B
-grade_12|Which of the following person was assassinated by the Fenians:A) Pierre Laporte  B)Thomas Darcy McGee C)Issac Brock |B
-grade_12|Which item was not a WW I weapon A)Big Bertha B)U boat C)Atomic Bomb|C
-grade_12|The Northwest or Riel Rebellion was between Canada and the A)Metis B)Fenians C)Americans|A
-grade_12|The name "Kanata" in native language meant: A)land of deep snow B)big river C)village|C
-grade_12|The last battle fought in Canada was the A)Battle of the Plains of Abraham B)third Battle of Mackinaw Island C)Battle of Batoche|C
-grade_12|The last name of Arch-duke Franz Ferdinand was A)Kaiser B)Hapsburg C)He didn't have a last name|B
+grade_9|Question 1 grade_9|False
+grade_9|Question 2 grade_9|True
+grade_9|Question 3 grade_9|False
+grade_9|Question 4 grade_9|True
+grade_9|Question 5 grade_9|False
+grade_9|Question 6 grade_9|True
+grade_9|Who is Canada's Prime Minister? Stephen Harper? |False
+grade_9|What is the captial of Canada? Ottawa?|True
+grade_9|Canada entered into Confederation in 1867?|True
+grade_9|Which province was the last to join Confederation? Ontario?|False
+
+grade_10|A cenotaph is a memorial to Canadian soldiers who were killed in the wars.| True 
+grade_10|After the Pacific Scandal, Macdonald never was Prime Minister again. | False 
+grade_10|Alberta was the last province to join Confederation.|False
+grade_10|All land in Western Canada was free before 1914.|False
+grade_10|Another name for Bolsheviks or Russian Communists was "Greens".|False
+grade_10|Before 1930, Chinese were allowed into Canada only if they paid a head tax.|True 
+grade_10|Canada entered World War I as an ally of the Triple Alliance.|False
+grade_10|The Red Baron was a famous German fighter pilot who survived WW I.|False
+grade_10|Canada's constitution was called the BNA Act.|True 
+grade_10|Canada is a good country.|True
