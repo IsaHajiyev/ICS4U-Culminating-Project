@@ -1,0 +1,36 @@
+grade_9|The y intercept of f(x) = (x+4)^2-1? is (0,10)(0,15)|False
+grade_9|The x intercept of f(x) = x^2-8x+16? is (4,0)|True
+grade_9|The y intercept of f(x) = x^2+4x-3 is (0,-2)|False
+grade_9|The positive x intercept of f(x) = x^2+5-9? is (4,0)|False
+grade_9|The y intercept of f(x) = (x+5)(x+6) is (0,30)|True
+grade_9|The y intercept of f(x) = x^2+4x-8 is (0,-8)|True
+grade_9|The positive x intercept of f(x) = x^2-3+2 is (1,0)|True
+grade_9|The positive x intercept of f(x) = (x-4)(x+5) is (5,0)|False
+grade_9|The positive x intercept of f(x) = (x+8)(x-3) is (3,0)|True
+grade_9|The y intercept of f(x) = (x+2)^2-7 is (0,-3)|True
+grade_9|The y intercept of f(x) = (x-7)(x-8) is (0,-56)|False
+grade_9|The y intercept of f(x) = (x+4)^2-7 is (0,-4)|False
+
+grade_10|Is x=y^2+4y-5 a function?|False
+grade_10|Is y=-2(x-3)^2-9 a function?True
+grade_10|Is x^2+y^2=36 a function?|True 
+grade_10|Is f(t)=-t+3t-7 a function?|True
+grade_10|Is f(x)=4/5x-7 a function?|True 
+grade_10|Is f(m)=3(m+4)^2-2 a function?|True 
+grade_10|The parent function of f(x)=x^2+5x-6 is f(x)=x|False 
+grade_10|What is the parent function of f(x)=5x-8 is 1/x|False 
+grade_10|What is the parent function of f(x)=2/x+3 is 1/x|True
+grade_10|The domain is related to the y axis of a function|False
+grade_10|The range is related to the y axis of a function|True
+
+grade_11|Sin 55 to 3 decimal places is 0.918|False
+grade_11|Cos 74 to 3 decimal places is 0.276|True
+grade_11|Tan 23 to 3 decimal places is 0.824|False
+grade_11|Sin^-1(0.879) to a whole number is 61|False
+grade_11|Cos^-1(0.7) to a whole number is 46|True
+grade_11|Tan^-1(0.867543) to a whole number is 51|False 
+grade_11|Csc 45 to 3 decimal places is 1.414|True
+grade_11|Sec 32 to 3 decimal places is 0.179|False
+grade_11|Cot 63 to 3 decimal places is 0.510|True
+grade_11|Csc 29 to 3 decimal places is 1.063|False
+grade_11|Sec 76 to 3 decimal places is 4.134|True
