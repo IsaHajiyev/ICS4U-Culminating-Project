@@ -23,7 +23,7 @@ grade_10|Math Question 6 grade_10|True
 grade_10|Math Question 7 grade_10 |False
 grade_10|Math Question 8 grade_10|True
 grade_10|What is the y intercept: f(x) = (x-7)(x-8)?(0,56)|True
-grade_10|Math Question 10 grade_10|False
+grade_10|Calculate csc 45 to 3 decimal places(round the last decimal if necessary) is 1.414|True
 
 grade_11|Math Question 1 grade_11|False
 grade_11|Math Question 2 grade_11|True
