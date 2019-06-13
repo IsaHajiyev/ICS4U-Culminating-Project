@@ -9,7 +9,7 @@ score_index = 2
 trivia = Trivia()
 #grade_idx = list()
 
-file_name="Math/math_questions_test.txt"
+file_name="chem/chem_questions_test.txt"
 
 #Show frame selected
 def show_frame(self, page_name):
@@ -203,7 +203,7 @@ def get_trivia(grade):
     trivia = Trivia(int(grade))
     return trivia
 
-class MathGUI(tk.Frame):
+class ChemGUI(tk.Frame):
     print("----------------init--------------")  
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
@@ -212,7 +212,7 @@ class MathGUI(tk.Frame):
         #grade = 10
         #trivia = Trivia(int(grade))
         
-        label = tk.Label(self, text="Math Trivia Game",font = "Helvetica 12 bold italic")
+        label = tk.Label(self, text="Chemistry Trivia Game",font = "Helvetica 12 bold italic")
         label.pack(side="top", fill="x", pady=10)
         
         header = tk.Frame(self)
