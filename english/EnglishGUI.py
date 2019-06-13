@@ -9,8 +9,7 @@ score_index = 2
 trivia = Trivia()
 #grade_idx = list()
 
-#file_name="history/history_questions.txt"
-file_name="history/history_questions.txt"
+file_name="english/english_questions_test.txt"
 
 #Show frame selected
 def show_frame(self, page_name):
@@ -24,8 +23,6 @@ def show_frame(self, page_name):
 def check_score(labelScore):
     if(int(trivia.score) == int(trivia.max_score)):
         labelScore.config(text="Congratulations! Your score is max: " + str(trivia.score), fg = "red")
-    elif(int(trivia.score) < int(trivia.max_score)/2):
-        labelScore.config(text="The score is: " + str(trivia.score) + " out of " + str(trivia.max_score) + ". Not passed.")
     else:
         labelScore.config(text="The score is: " + str(trivia.score) + " out of " + str(trivia.max_score))
     
@@ -213,8 +210,8 @@ def get_trivia(grade):
     trivia = Trivia(int(grade))
     return trivia
 
-class HistoryGUI(tk.Frame):
-    print("----------------init history-------------")  
+class EnglishGUI(tk.Frame):
+    print("----------------init english-------------")  
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
         self.controller = controller
@@ -222,7 +219,7 @@ class HistoryGUI(tk.Frame):
         #grade = 10
         #trivia = Trivia(int(grade))
         
-        label = tk.Label(self, text="History Trivia Game",font = "Helvetica 12 bold italic")
+        label = tk.Label(self, text="English Trivia Game",font = "Helvetica 12 bold italic")
         label.pack(side="top", fill="x", pady=10)
         
         header = tk.Frame(self)

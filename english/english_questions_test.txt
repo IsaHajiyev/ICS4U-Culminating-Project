@@ -1,0 +1,43 @@
+grade_9|English Question 1 grade_9|False
+grade_9|English Question 2 grade_9|True
+grade_9|English Question 3 grade_9|False
+grade_9|English Question 4 grade_9|True
+grade_9|English Question 5 grade_9|False
+grade_9|English Question 6 grade_9|True
+grade_9|English Question 7 grade_9 |False
+grade_9|English Question 8 grade_9|True
+grade_9|English Question 9 grade_9|True
+grade_9|English Question 10 grade_9|False
+
+grade_10|English Question 1 grade_10|False
+grade_10|English Question 2 grade_10|True
+grade_10|English Question 3 grade_10|False
+grade_10|English Question 4 grade_10|True
+grade_10|English Question 5 grade_10|False
+grade_10|English Question 6 grade_10|True
+grade_10|English Question 7 grade_10 |False
+grade_10|English Question 8 grade_10|True
+grade_10|English Question 9 grade_10|True
+grade_10|English Question 10 grade_10|False
+
+grade_11|English Question 1 grade_11|False
+grade_11|English Question 2 grade_11|True
+grade_11|English Question 3 grade_11|False
+grade_11|English Question 4 grade_11|True
+grade_11|English Question 5 grade_11|False
+grade_11|English Question 6 grade_11|True
+grade_11|English Question 7 grade_11 |False
+grade_11|English Question 8 grade_11|True
+grade_11|English Question 9 grade_11|True
+grade_11|English Question 10 grade_11|False
+
+grade_12|English Question 1 grade_12|False
+grade_12|English Question 2 grade_12|True
+grade_12|English Question 3 grade_12|False
+grade_12|English Question 4 grade_12|True
+grade_12|English Question 5 grade_12|False
+grade_12|English Question 6 grade_12|True
+grade_12|English Question 7 grade_12 |False
+grade_12|English Question 8 grade_12|True
+grade_12|English Question 9 grade_12|True
+grade_12|English Question 10 grade_12|False
