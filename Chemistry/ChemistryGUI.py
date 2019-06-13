@@ -5,7 +5,7 @@ from history.Trivia import*
 def scroll_config(event, canvas):
     canvas.configure(scrollregion=canvas.bbox("all"),width=600,height=400)
     
-class ChemGUI(tk.Frame):
+class ChemistryGUI(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
         self.controller = controller
