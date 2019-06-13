@@ -8,6 +8,11 @@ grade_9|Math Question 7 grade_9 |False
 grade_9|Math Question 8 grade_9|True
 grade_9|Math Question 9 grade_9|True
 grade_9|Math Question 10 grade_9|False
+grade_9|Math Question 11 grade_9|False
+grade_9|Math Question 12 grade_9|False
+grade_9|Math Question 13 grade_9|False
+grade_9|Math Question 14 grade_9|False
+grade_9|Math Question 15 grade_9|False
 
 grade_10|Math Question 1 grade_10|False
 grade_10|Math Question 2 grade_10|True
