@@ -4,7 +4,7 @@ from core.Trivia import*
 import random
 
 #default grade to load
-grade = 10
+grade = 9
 score_index = 2
 trivia = Trivia()
 #grade_idx = list()
