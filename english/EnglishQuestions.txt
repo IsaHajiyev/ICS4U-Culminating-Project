@@ -8,6 +8,11 @@ grade_9|The plot has 5 main elements.|True
 grade_9|The main idea of a story is a motif.|False 
 grade_9|Atmosphere is the time and place throughout a story.|False
 grade_9|Personification is giving human qualities to non-humans.|True
+grade_9|"I'll meet you by _ front door of my house" can be filled with "the".|True
+grade_9|"I am going to buy a new car, it is a blue sedan." is grammatically correct.|False
+grade_9|Felicity means sadness.|False
+grade_9|Native peoples of Canada are also called "indegenous".|False
+grade_9|A hyperbole is a synonym of hyper.|False
 
 grade_10|There are 3 kinds of conflicts.|True
 grade_10|Foreshadowing is hinting at what happens next.|True
@@ -19,6 +24,11 @@ grade_10|Sources in English are cited in MLA format.|True
 grade_10|"Disappointed" can be a verb and an adjective.|True
 grade_10|In Merchant of Venice, the Jew dies in the end.|False
 grade_10|The main characters in Merchant of Venice visit Morocco.|True
+grade_10|The inciting incident is the first part of a story.|False
+grade_10|A theme is the main idea of a story.|True
+grade_10|Grammar is not part of the Grade 10 curriculum.|True
+grade_10|A climax is optional in a story.|False
+grade_10|The meaning of "gist" is a strong wind.|False
 
 grade_11|"And" and "But" are subordinating conjunctions.|False
 grade_11|"Put up" is prepositional phrase.|False
@@ -30,6 +40,11 @@ grade_11|Macbeth shows remorse at the end of the novel.|False
 grade_11|Shakespeare used iambic pentameter in his sonnets.|True
 grade_11|Poems have only a few forms.|False
 grade_11|Essays are the demise of Grade 11 students.|True
+grade_11|Essays have 5 main parts.|True
+grade_11|In "He didn't know the mob boss paid off the cop", "paid" is a subject.|False
+grade_11|You should appeal to the reader's perspective when writing an essay.|True
+grade_11|Shakespeare is not the author of Macbeth.|False
+grade_11|A paradox is a never ending loop.|True
 
 grade_12|The word "before" can be an adverb and a preposition.|True
 grade_12|There are 14 tenses in English.|False
@@ -41,3 +56,8 @@ grade_12|Compound nouns can be written with a hyphen.|True
 grade_12|Hamlet is a Shakespearean sonnet.|False
 grade_12|Words ending with "ing" can only be verbs.|False
 grade_12|"I cut my hair" and "I had my hair cut" mean the same thing.|False
+grade_12|Hamlet was never made into a play.|False
+grade_12|In "The events in the movie are mostly true", mostly is an adverb.|True
+grade_12|An example of passive voice is "I am depressed".|False
+grade_12|"Deadly" is an adverb because of the suffix "ly".|False
+grade_12|There is no difference between "Few" and "A few".|False
