@@ -20,7 +20,7 @@ def show_frame(self, page_name):
     frame.grid()
     return frame
 
-#Show score
+#Show score and create error messages in the score label
 def check_score(labelScore):
     if(int(trivia.score) == int(trivia.max_score)):
         labelScore.config(text="Congratulations! Your score is max: " + str(trivia.score), fg = "red")
@@ -52,7 +52,7 @@ def gradeMenu_callback(self, item, frame, controller):
     print("value is:" + str(item))
     grade = item
     #trivia = get_trivia(grade)
-    #clear the score
+    #clear the score after each grade is selected
     print("The score is:" + str(trivia.score))
     trivia.score = 0
     
@@ -72,6 +72,7 @@ def gradeMenu_callback(self, item, frame, controller):
     for widget in form.winfo_children():
         widget.destroy() 
     
+    #Creating the scroll bar on the right side of the screen
     scrollbar = Scrollbar(frame, orient="vertical",command=canvas.yview)
 
     scrollbar.pack(side = "right", fill = "y" )        
@@ -83,10 +84,12 @@ def gradeMenu_callback(self, item, frame, controller):
 
     #Due to TKINTER LIMITATIONS to send a control name / index to the callback method
     #added the following static fields to display Questions / Answers
+    #This is the box for the true/false selection; every similar block of code creates a new box
     tk_grade_var0 = tk.StringVar(self)
     data0 = {'True','False'}
     tk_grade_var0.set('Select') #set the default option
-                
+    
+    #This is the box for the question output; every similar block of code creates a new box         
     arr= finalList[0]
     menue0 = tk.Frame(form)
     menue0.pack(side="top", fill="both") 
@@ -217,9 +220,7 @@ class MathGUI(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         
-        #grade = 10
-        #trivia = Trivia(int(grade))
-        
+        #Creating the labels to give command prompts for the user
         label = tk.Label(self, text="Math Trivia Game",font = "Helvetica 12 bold italic")
         label.pack(side="top", fill="x", pady=10)
         
@@ -229,10 +230,10 @@ class MathGUI(tk.Frame):
         label = tk.Label(header, text="\t\t\t\tPlease select your grade.")
         label.pack(side="left", fill="x", anchor="e", pady=10)        
         
-        
         spacer = tk.Label(header, text="\t\t\t\t")
         spacer.pack(side="right", anchor="w")
         
+        #Outputting the grade numbers into a drop box for the user to choose a grade
         tk_grade_var = tk.StringVar(self)
         data = {'9','10','11'}
         tk_grade_var.set('9') #set the default option
@@ -243,7 +244,6 @@ class MathGUI(tk.Frame):
         #Questions
         
         print('Starting the trivia program.')
-        #grade = input('Please enter your grade:')
         grade = get_grade()
         
         print("grade " + str(grade))
@@ -252,8 +252,9 @@ class MathGUI(tk.Frame):
         #array
         
         finalList = trivia.readFile(file_name, grade)
-        #apply the random to shuffle the list
-        #shuffled = random.shuffle(finalList) 
+        
+        #apply the random to shuffle the list of questions and answers
+        shuffled = random.shuffle(finalList) 
         print("finalList: " + str(finalList))
         
         frame=tk.Frame(self)
@@ -270,6 +271,7 @@ class MathGUI(tk.Frame):
 
         #Due to TKINTER LIMITATIONS to send a control name / index to the callback method
         #added the following static fields to display Questions / Answers
+        #This section repeats the same code as above but is necessary to display all the questions after clicking a grade on the main frame
         tk_grade_var0 = tk.StringVar(self)
         data0 = {'True','False'}
         tk_grade_var0.set('Select') #set the default option
@@ -394,6 +396,7 @@ class MathGUI(tk.Frame):
         
         form.bind("<Configure>", lambda event, canvas=canvas: scroll_config(event, canvas))
     
+        #The following is peter's code to develop some of the features on the GUI, kept for reference
         ''' Initial loop implimentation
         for i in range(len(finalList)):
             arr= finalList[i]
@@ -424,7 +427,7 @@ class MathGUI(tk.Frame):
         # frame.pack(side="top", fill="both")
         form.bind("<Configure>", lambda event, canvas=canvas: scroll_config(event, canvas))
         '''
-        #eof Questions
+        #Creating the score button and label to output the score 
         labelScore = tk.Label(self, text=" Please make your selection!",font = "Helvetica 12 bold italic")
         labelScore.pack(side="left", fill="x", pady=10)
         
@@ -432,6 +435,7 @@ class MathGUI(tk.Frame):
         score_button.config( height = 2, width = 20 )
         score_button.pack()  
         
+        #Creating a restart button to return back to all the subjects
         restart_button = tk.Button(self, text="Return to the main screen", command=self.restart)
         restart_button.config( height = 2, width = 20 )
         restart_button.pack()
@@ -439,4 +443,3 @@ class MathGUI(tk.Frame):
     def restart(self):
         #self.refresh()
         self.controller.show_frame("InitPage")    
-        
