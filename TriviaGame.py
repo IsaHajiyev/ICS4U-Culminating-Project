@@ -1,4 +1,5 @@
 import tkinter as tk
+from business.BusinessGUI import*
 from history.HistoryGUI import*
 from Math.MathGUI import*
 from chem.ChemGUI import*
@@ -15,7 +16,7 @@ class TriviaGame(tk.Tk):
         container.grid_rowconfigure(0, weight = 1)
         container.grid_columnconfigure(0, weight = 1)
         self.frames = {}
-        for frame in (InitPage, HistoryGUI, MathGUI, ChemGUI, EnglishGUI):
+        for frame in (InitPage, BusinessGUI, HistoryGUI, MathGUI, ChemGUI, EnglishGUI):
             page_name = frame.__name__
             frame = frame(parent = container, controller=self)
             self.frames[page_name] = frame
@@ -39,6 +40,10 @@ class InitPage(tk.Frame):
  
         label = tk.Label(self, text="Welcome to the Trivia Game.",font = "Helvetica 16 bold italic")
         label.pack(side="top", fill="x", pady=10)
+        
+        businessButton = tk.Button(self, text="Business", command=lambda: controller.show_frame("BusinessGUI"))
+        businessButton.config( height = 2, width = 20 )
+        businessButton.pack()
 
         historyButton = tk.Button(self, text="History", command=lambda: controller.show_frame("HistoryGUI"))
         historyButton.config( height = 2, width = 20 )
