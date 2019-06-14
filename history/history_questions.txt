@@ -52,7 +52,6 @@ grade_11|During WW II, the Japanese actually captured 2 islands in Alaska called
 grade_12|In 1915, Canadian Soldiers survived a gas attack by creating gas masks soaked in urine. |True
 grade_12|The Rebellion of 1837 involved the USA |False 
 grade_12|The Ross rifle was a made in Canada weapon.|True
-grade_12|The Northwest Mounted Police wore red uniforms because the British Army had previously used the colour red.|True
 grade_12|The Treaty of Versallies was between the victorious Allies and the Ottoman Empire |False
 grade_12|The Triple Entente consisted of France, Britain & Russia. |True
 grade_12|Under Laurier, assimilation was encouraged among new immigrants.|True
