@@ -1,65 +1,65 @@
 grade_9|Canada was allowed to sign the Treaty of Versailles.|True
 grade_9|Confederation occurred on June 1, 1867.|False
 grade_9|Fort Whoop Up was a HBC fur trading post.  |False
-grade_9|Every part of Canada except Newfoundland joined Canada while Macdonald was Prime Minister,|True
+grade_9|Every part of Canada except Newfoundland joined Canada while Macdonald was Prime Minister.|True
 grade_9|Gordon Lightfoot wrote a song about the National Dream.|True
-grade_9|In WWI, Canadian troops were used as "shock troops".|True
-grade_9|Who is Canada's Prime Minister? Stephen Harper? |False
-grade_9|What is the captial of Canada? Ottawa?|True
-grade_9|Canada entered into Confederation in 1867?|True
-grade_9|Which province was the last to join Confederation? Ontario?|False
+grade_9|In WW1, Canadian troops were used as "shock troops".|True
+grade_9|Is Canada's current Prime Minister Stephen Harper? |False
+grade_9|The capital of Canada is Ottawa.|True
+grade_9|Did Canada enter Confederation in 1867?|True
+grade_9|Ontario was the last province to join Confederation.|False
 
-grade_9|Adolph Hitler was a fascist leader.|True
+grade_9|Adolph Hitler was a Fascist leader.|True
 grade_9|Appeasement means fighting against dictators like Hitler.|False
 grade_9|A Speakeasy was a CBC tv show in the 1950's. |True
 grade_9|The Berlin Wall was part of the Iron Curtain. |True
-grade_9|Brian Mulroney's policies included NAFTA |True
+grade_9|Brian Mulroney's policies included NAFTA. |True
 
-grade_10|A cenotaph is a memorial to Canadian soldiers who were killed in the wars.| True 
-grade_10|After the Pacific Scandal, Macdonald never was Prime Minister again. | False 
+grade_10|A cenotaph is a memorial to Canadian soldiers who were killed in wars.| True 
+grade_10|After the Pacific Scandal, Macdonald was never Prime Minister again. | False 
 grade_10|Alberta was the last province to join Confederation.|False
 grade_10|All land in Western Canada was free before 1914.|False
 grade_10|Another name for Bolsheviks or Russian Communists was "Greens".|False
-grade_10|Before 1930, Chinese were allowed into Canada only if they paid a head tax.|True 
+grade_10|Before 1930, the Chinese were only allowed into Canada if they paid a head tax.|True 
 grade_10|Canada entered World War I as an ally of the Triple Alliance.|False
-grade_10|The Red Baron was a famous German fighter pilot who survived WW I.|False
+grade_10|The Red Baron was a famous German fighter pilot who survived WW1.|False
 grade_10|Canada's constitution was called the BNA Act.|True 
 grade_10|Canada is a good country.|True
 
-grade_10|Canada actually built Dreadnaughts before World War I. |False 
+grade_10|Canada built multiple Dreadnaughts before World War 1.|False 
 grade_10|Canada became a British colony after the 7 Years War.|False
-grade_10|Canada had conscription during both World Wars I & II. |False
-grade_10|Canada is a member of OPEC |False
-grade_10|Canada is a member of NATO |True
+grade_10|Canada had conscription during both World Wars 1 & 2.|False
+grade_10|Canada is a member of OPEC|False
+grade_10|Canada is a member of NATO|True
 
-grade_11|PEI & Quebec rejected Confederation in 1867. |False
-grade_11|Prior to 1759, all of Canada was controlled by France. |False
-grade_11|Reciprocity means free trade with the USA. |True
-grade_11|The white feather was a symbol of cowardice |True
-grade_11|The Conscription Crisis pitted Canada against the USA. |False
-grade_11|The first French explorer to claim Quebec for France was Samuel de Champlain. |False
+grade_11|PEI & Quebec rejected Confederation in 1867.|False
+grade_11|Prior to 1759, all of Canada was controlled by France.|False
+grade_11|Reciprocity means free trade with the USA.|True
+grade_11|The white feather was a symbol of cowardice.|True
+grade_11|The Conscription Crisis pitted Canada against the USA.|False
+grade_11|The first French explorer to claim Quebec for France was Samuel de Champlain.|False
 grade_11|The forerunner of the RCMP was the North West Mounted Police. |True
-grade_11|The French were interested in turning Canada into a great farming colony. |False
-grade_11|The Hudson's Bay Comany is the oldest company still in business in the world. |True
-grade_11|The National Dream was Sir Wilfrid Laurier's vision for Canada |False
+grade_11|The French were interested in turning Canada into a great farming colony.|False
+grade_11|The Hudson's Bay Comany is the oldest company still in business in the world.|True
+grade_11|The National Dream was Sir Wilfrid Laurier's vision for Canada.|False
 
 grade_11|Canada is a member of the British Commonwealth.|True
 grade_11|Canada sent soldiers to fight in the Korean War.|True
-grade_11|Communism, fascism & socialism all hate democracy.|True
+grade_11|Communism, Fascism & Socialism all hate democracy.|True
 grade_11|The Doomsday Clock was a symbol of the danger posed by nuclear war.|True
-grade_11|During WW II, the Japanese actually captured 2 islands in Alaska called Kiska & Attu|True
+grade_11|During WW2, the Japanese actually captured 2 islands in Alaska called Kiska & Attu.|True
 
-grade_12|In 1915, Canadian Soldiers survived a gas attack by creating gas masks soaked in urine. |True
-grade_12|The Rebellion of 1837 involved the USA |False 
+grade_12|In 1915, Canadian Soldiers survived a Gas attack by creating Gas Masks soaked in urine. |True
+grade_12|The Rebellion of 1837 involved the USA. |False 
 grade_12|The Ross rifle was a made in Canada weapon.|True
-grade_12|The Treaty of Versallies was between the victorious Allies and the Ottoman Empire |False
+grade_12|The Treaty of Versallies was between the victorious Allies and the Ottoman Empire. |False
 grade_12|The Triple Entente consisted of France, Britain & Russia. |True
 grade_12|Under Laurier, assimilation was encouraged among new immigrants.|True
 grade_12|Wilfrid Laurier won the great election of 1911. |False
 grade_12|Only democratic countries can belong to the United Nations. |False
-grade_12|Newfoundland was the last province to join Confederation |True
+grade_12|Newfoundland was the last province to join Confederation. |True
 
-grade_12|For a few years, Canada & the USA were part of the same Empire. |True
+grade_12|In the past, Canada & the USA were part of the same Empire. |True
 grade_12|An Allophone was a person whose first language was neither English nor French.|True
 grade_12|It is still illegal for individuals to make any alcoholic beverage in Ontario today.|False
 grade_12|Mexico is part of NAFTA today. |True

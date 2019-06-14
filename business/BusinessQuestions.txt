@@ -1,15 +1,15 @@
 grade_9|Needs are the goods and services you must have to survive.|True
 grade_9|Goods or services are necessary for survival and add pleasure and comfort to life.|False
-grade_9|The amount of money that a business earns from selling goods or services is called expense|False
+grade_9|The amount of money that a business earns from selling goods or services is called expense.|False
 grade_9|Profit (Net Income) = Revenue (Income) + Expenses.|False
 grade_9|Businesses with two or more owners or partners are called propietorships.|False
-grade_9|Factors that Influence How Consumers Buy do not exist.|False
+grade_9|Factors that influence how consumers buy do not exist.|False
 grade_9|A business is an organization that produces or sells goods or services.|True
 grade_9|Price is the least important consideration for consumers.|False 
 grade_9|Quality is the most important consideration for consumers.|False
 grade_9|High cost of products and services (such as houses) forces careful consideration of funds.|True
 
-grade_10|Some consumers believe that higher price = higher quality, but this is not always true.|True
+grade_10|Some consumers believe that higher price = higher quality, but this isn't always true.|True
 grade_10|Consumers expect good value for the money they spend.|True
 grade_10|Consumers won't pay more than what they believe an item is worth.|True
 grade_10|Quality, style, guarantees, convenience, and selective selections are important factors.|False
@@ -23,7 +23,7 @@ grade_10|Unlimited liability makes the owner responsible for all losses to a bus
 grade_11|There are four types of corporations.|False
 grade_11|Financial Institutions lend money to businesses so long as they promise to repay.|False
 grade_11|Borrowing will not result in difficulty to repay on time.|False
-grade_11|Two Types of Financing: Debt and Equity.|True
+grade_11|There are two types of financing: Debt and Equity.|True
 grade_11|Public and Private Sectors - private refers to governments, public to business.|False
 grade_11|All nations face the same three economic questions.|True
 grade_11|"How should these goods and services be produced?" is not an economic question.|False
@@ -40,4 +40,4 @@ grade_12|Three models exist for economic systems.|True
 grade_12|Modern Mixed Economy is predominately used by the vast majority of countries.|True
 grade_12|Pure Market Economy has great government interference.|False
 grade_12|Canada is considered to be a Pure Market Economy.|False
-grade_12|Government decides what goods and services will be produced belongs to the Pure Market Economy.|False
+grade_12|Governments deciding which goods and services will be produced is a trait of Pure Market Economies.|False

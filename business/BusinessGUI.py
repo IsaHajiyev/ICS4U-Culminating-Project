@@ -3,11 +3,10 @@ import tkinter as tk
 from core.Trivia import*
 import random
 
-#default grade to load
-grade = 10
+#Default Grade to load
+grade = 9
 score_index = 2
 trivia = Trivia()
-#grade_idx = list()
 
 file_name="business/BusinessQuestions.txt"
 
@@ -19,7 +18,7 @@ def show_frame(self, page_name):
     frame.grid()
     return frame
 
-#Show score
+#Displays the score upon button press
 def check_score(labelScore):
     if(int(trivia.score) == int(trivia.max_score)):
         labelScore.config(text="Congratulations! Your score is max: " + str(trivia.score), fg = "red")
@@ -27,7 +26,6 @@ def check_score(labelScore):
         labelScore.config(text="The score is: " + str(trivia.score) + " out of " + str(trivia.max_score) + ". You did not pass.")    
     else:
         labelScore.config(text="The score is: " + str(trivia.score) + " out of " + str(trivia.max_score))
-    
     print("The score is:" + str(trivia.score))
 
 #Configuration for the scrollbar
@@ -37,7 +35,7 @@ def scroll_config(event, canvas):
 def get_grade():
     return grade
 
-#A callback function for the score menues
+#A callback function for the score menus
 def scoreMenu_callback0(guess, gradeMenue0answer, menu):
     print ("------------callback0-----guess:" + str(guess) + " answer:" +  gradeMenue0answer)
     if (str(guess).strip() == str(gradeMenue0answer).strip()):
@@ -50,44 +48,40 @@ def scoreMenu_callback0(guess, gradeMenue0answer, menu):
 def gradeMenu_callback(self, item, frame, controller):
     print("value is:" + str(item))
     grade = item
-    #trivia = get_trivia(grade)
-    #clear the score
+    #Clear the score upon clicking grade
     print("The score is:" + str(trivia.score))
     trivia.score = 0
     
     finalList = trivia.readFile(file_name, grade)
-    #apply the random to shuffle the list
-    
+    #Randomly shuffles the list
     shuffled = random.shuffle(finalList)
-    
     print(finalList)
     
-    #clear the grid
+    #Clear the grid
     for widget in frame.winfo_children():
         widget.destroy()
     
     canvas=Canvas(frame)
-
     form=Frame(canvas)
     
     for widget in form.winfo_children():
         widget.destroy() 
     
+    #Creates the scrollbar and canvas
     scrollbar = Scrollbar(frame, orient="vertical",command=canvas.yview)
-
     scrollbar.pack(side = "right", fill = "y" )        
 
     canvas.pack(side="top")
-
     canvas.create_window((0,0),window=form,anchor='nw')        
     canvas.configure(yscrollcommand=scrollbar.set)        
 
-    #Due to TKINTER LIMITATIONS to send a control name / index to the callback method
-    #added the following static fields to display Questions / Answers
+    #Static fields to display Questions/Answers
     tk_grade_var0 = tk.StringVar(self)
     data0 = {'True','False'}
-    tk_grade_var0.set('Select') #set the default option
-                
+    tk_grade_var0.set('Select') #Set the default option
+    
+    
+    #Final lists for various grade calling and visuals        
     arr= finalList[0]
     menue0 = tk.Frame(form)
     menue0.pack(side="top", fill="both") 
@@ -96,7 +90,6 @@ def gradeMenu_callback(self, item, frame, controller):
     gradeMenue0 = tk.OptionMenu(menue0, tk_grade_var0, *sorted(data0),  command=lambda item=tk_grade_var0: scoreMenu_callback0(item, arr[1], gradeMenue0))
     gradeMenue0.pack(side="right", anchor="e") 
  
-       
     tk_grade_var1 = tk.StringVar(self)
     data1 = {'True','False'}
     tk_grade_var1.set('Select') #set the default option
@@ -109,7 +102,6 @@ def gradeMenu_callback(self, item, frame, controller):
     gradeMenue1 = tk.OptionMenu(menue1, tk_grade_var1, *sorted(data1),  command=lambda item=tk_grade_var1: scoreMenu_callback0(item, arr1[1], gradeMenue1))
     gradeMenue1.pack(side="right", anchor="w")         
             
-
     tk_grade_var2 = tk.StringVar(self)
     data2 = {'True','False'}
     tk_grade_var2.set('Select') #set the default option
@@ -208,49 +200,43 @@ def gradeMenu_callback(self, item, frame, controller):
     
     form.bind("<Configure>", lambda event, canvas=canvas: scroll_config(event, canvas))
     
-def get_trivia(grade):
+def get_trivia(grade): #Gets the Trivia piece of code
     trivia = Trivia(int(grade))
     return trivia
 
-class BusinessGUI(tk.Frame):
+class BusinessGUI(tk.Frame): #Class which formats and creates the GUI for the Business Subject
     print("----------------init business-------------")  
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         
-        #grade = 10
-        #trivia = Trivia(int(grade))
-        
-        label = tk.Label(self, text="Business Trivia Game",font = "Helvetica 12 bold italic")
+        label = tk.Label(self, text="Business Trivia Game",font = "Helvetica 12 bold italic") #Label initalized
         label.pack(side="top", fill="x", pady=10)
         
-        header = tk.Frame(self)
+        header = tk.Frame(self) #Header created
         header.pack(side="top", fill="both")
         
-        label = tk.Label(header, text="\t\t\t\tPlease select your grade.")
+        label = tk.Label(header, text="\t\t\t\tPlease select your grade.") #Text for user experience
         label.pack(side="left", fill="x", anchor="e", pady=10)        
         
-        
-        spacer = tk.Label(header, text="\t\t\t\t")
+        spacer = tk.Label(header, text="\t\t\t\t") #Spacer for organization
         spacer.pack(side="right", anchor="w")
         
         tk_grade_var = tk.StringVar(self)
         data = {'9','10','11','12'}
-        tk_grade_var.set('10') #set the default option
+        tk_grade_var.set('9') #Set the default option
           
         gradeMenu = tk.OptionMenu(header, tk_grade_var, *sorted(data), command=lambda item=tk_grade_var: gradeMenu_callback(self, item, frame, controller))
         gradeMenu.pack(side="right", anchor="w") 
         
         #Questions
-        
         print('Starting the trivia program.')
-        #grade = input('Please enter your grade:')
         grade = get_grade()
         
         print("grade " + str(grade))
        
         #Read the file and load the corresponding
-        #array
+        #Array
         
         finalList = trivia.readFile(file_name, grade)
         #apply the random to shuffle the list
@@ -271,8 +257,7 @@ class BusinessGUI(tk.Frame):
         canvas.create_window((0,0),window=form,anchor='nw')        
         canvas.configure(yscrollcommand=scrollbar.set)        
 
-        #Due to TKINTER LIMITATIONS to send a control name / index to the callback method
-        #added the following static fields to display Questions / Answers
+        #Added several additional static fields to display Questions/Answers
         tk_grade_var0 = tk.StringVar(self)
         data0 = {'True','False'}
         tk_grade_var0.set('Select') #set the default option
@@ -396,51 +381,19 @@ class BusinessGUI(tk.Frame):
         grademenue9.pack(side="right", anchor="w")
         
         form.bind("<Configure>", lambda event, canvas=canvas: scroll_config(event, canvas))
-    
-        ''' Initial loop implimentation
-        for i in range(len(finalList)):
-            arr= finalList[i]
-            #print(arr[0])
-            
-            fm = tk.Frame(form)
-            
-            label = tk.Label(fm, text=" " + arr[0])
-            label.pack(side="left", anchor="w", pady="10")  
-           
-            label1 = tk.Label(fm, text=" ")
-            label1.pack(side="right", anchor="w") 
-            
-            # Create a Tkinter variable
-            tk_score_var = tk.StringVar(self)
 
-            choices = { 'True','False'}
-            tk_score_var.set('Select') # set the default option
-            answer = arr[1]
-            popupMenu = tk.OptionMenu(fm, tk_score_var, *choices,  command=lambda item=tk_score_var: scoreMenu_callback(item, answer, i))
-            popupMenu.pack(side="right", anchor="e", pady="10") 
-            
-             
-            
-            #fm.pack(side="top", anchor="w")
-            fm.pack(side="top", fill="both")
-                
-        # frame.pack(side="top", fill="both")
-        form.bind("<Configure>", lambda event, canvas=canvas: scroll_config(event, canvas))
-        '''
         #eof Questions
-
+        #Final buttons for user selection
         labelScore = tk.Label(self, text=" Please make your selection!",font = "Helvetica 12 bold italic")
         labelScore.pack(side="left", fill="x", pady=10) 
         
         score_button = tk.Button(self, text="Check Score", command = lambda:check_score(labelScore))
-        score_button.config( height = 2, width = 20 )
+        score_button.config(height = 2, width = 20)
         score_button.pack()  
         
         restart_button = tk.Button(self, text="Return to the main screen", command=self.restart)
-        restart_button.config( height = 2, width = 20 )
+        restart_button.config(height = 2, width = 20)
         restart_button.pack()
-        
-       
      
     def restart(self):
         #self.refresh()

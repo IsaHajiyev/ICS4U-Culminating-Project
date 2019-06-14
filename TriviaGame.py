@@ -6,7 +6,7 @@ from chem.ChemGUI import*
 from english.EnglishGUI import*
 from core.Trivia import*
 
-class TriviaGame(tk.Tk):
+class TriviaGame(tk.Tk): #Class displays and creates the needed space for the GUI
 
     def __init__(self, *args, **kwargs):
         tk.Tk.__init__(self, *args, **kwargs)
@@ -32,7 +32,7 @@ class TriviaGame(tk.Tk):
         frame = self.frames[page_name]
         frame.grid()
 
-class InitPage(tk.Frame):
+class InitPage(tk.Frame): #Class contains the majority of the buttons used to access the questions
 
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
@@ -41,37 +41,36 @@ class InitPage(tk.Frame):
         label = tk.Label(self, text="Welcome to the Trivia Game.",font = "Helvetica 16 bold italic")
         label.pack(side="top", fill="x", pady=10)
         
-        businessButton = tk.Button(self, text="Business", command=lambda: controller.show_frame("BusinessGUI"))
-        businessButton.config( height = 2, width = 20 )
+        businessButton = tk.Button(self, text="Business Trivia", command=lambda: controller.show_frame("BusinessGUI"))
+        businessButton.config(height = 2, width = 20)
         businessButton.pack()
 
-        historyButton = tk.Button(self, text="History", command=lambda: controller.show_frame("HistoryGUI"))
-        historyButton.config( height = 2, width = 20 )
+        historyButton = tk.Button(self, text="History Trivia", command=lambda: controller.show_frame("HistoryGUI"))
+        historyButton.config(height = 2, width = 20)
         historyButton.pack()        
 
         mathButton = tk.Button(self, text="Math Trivia", command=lambda: controller.show_frame("MathGUI"))
-        mathButton.config( height = 2, width = 20 )
+        mathButton.config(height = 2, width = 20)
         mathButton.pack()
 
         chemButton = tk.Button(self, text="Chemistry Trivia", command=lambda: controller.show_frame("ChemGUI"))
-        chemButton.config( height = 2, width = 20 )
+        chemButton.config(height = 2, width = 20)
         chemButton.pack()
         
         engButton = tk.Button(self, text="English Trivia", command=lambda: controller.show_frame("EnglishGUI"))
-        engButton.config( height = 2, width = 20 )
+        engButton.config(height = 2, width = 20)
         engButton.pack()        
 
         quitButton = tk.Button(self, text="Quit", command= self.quit_program)
-        quitButton.config( height = 2, width = 20 )
+        quitButton.config(height = 2, width = 20)
         quitButton.pack()
         
     
-    def quit_program(self):
+    def quit_program(self): #Function exits the program
         exit()         
 
-if __name__ == "__main__":
+if __name__ == "__main__": #Determines the size of the window
     app = TriviaGame()
-    #size of the window
-    app.geometry("600x500") 
+    #Size of the window
+    app.geometry("700x600") 
     app.mainloop()
-    
