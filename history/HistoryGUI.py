@@ -237,7 +237,7 @@ class HistoryGUI(tk.Frame):
         
         tk_grade_var = tk.StringVar(self)
         data = {'9','10','11','12'}
-        tk_grade_var.set('10') #set the default option
+        tk_grade_var.set('9') #set the default option
           
         gradeMenu = tk.OptionMenu(header, tk_grade_var, *sorted(data), command=lambda item=tk_grade_var: gradeMenu_callback(self, item, frame, controller))
         gradeMenu.pack(side="right", anchor="w") 
