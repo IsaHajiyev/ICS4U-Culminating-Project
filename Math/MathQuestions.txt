@@ -10,6 +10,11 @@ grade_9|The positive x intercept of f(x) = (x+8)(x-3) is (3,0)|True
 grade_9|The y intercept of f(x) = (x+2)^2-7 is (0,-3)|True
 grade_9|The y intercept of f(x) = (x-7)(x-8) is (0,-56)|False
 grade_9|The y intercept of f(x) = (x+4)^2-7 is (0,-4)|False
+grade_9|1 is equal to its square.|True
+grade_9|The equations 2x+y=2 and x-2y=0 are parellel.|False
+grade_9|If 2,3,5 and x have an average of 4, x=5.|False
+grade_9|An isosceles triangle is equal on all sides and angles.|False
+grade_9|A scalene triangle is not equal on all sides and angles.|True
 
 grade_10|Is x=y^2+4y-5 a function?|False
 grade_10|Is y=-2(x-3)^2-9 a function?|True
@@ -22,6 +27,11 @@ grade_10|The parent function of f(x)=5x-8 is 1/x|False
 grade_10|The parent function of f(x)=2/x+3 is 1/x|True
 grade_10|The domain is related to the y axis of a function|False
 grade_10|The range is related to the y axis of a function|True
+grade_10|If a rectangle has length=13 and width=22, the area is 285.|False
+grade_10|A line has 2 points: (1,5) and (7,1). The midpoint is (4,3).|True
+grade_10|(8^2)^3 is 262 144.|True
+grade_10|(2x+8)^2 is 4x^2+16.|False
+grade_10|x^2+x+1=0 has 1 solution.|False
 
 grade_11|Sin 55 to 3 decimal places is 0.918|False
 grade_11|Cos 74 to 3 decimal places is 0.276|True
@@ -34,3 +44,8 @@ grade_11|Sec 32 to 3 decimal places is 0.179|False
 grade_11|Cot 63 to 3 decimal places is 0.510|True
 grade_11|Csc 29 to 3 decimal places is 1.063|False
 grade_11|Sec 76 to 3 decimal places is 4.134|True
+grade_11|The max value of y=-4x^2-8x-3 is 1.|True
+grade_11|cos(x)tan(x) simplified is sin(x)/cos(x).|False
+grade_11|4x^2+4x=4x(x+1) factored is (x+1)(4x+3).|True 
+grade_11|2x^2-4x+3xy-6y factored is (x-2)(2x+3y).|True
+grade_11|3x^2+4x+1 factored is (x+1)(3x+4).|False
