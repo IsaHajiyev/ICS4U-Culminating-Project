@@ -10,7 +10,7 @@ trivia = Trivia()
 #grade_idx = list()
 
 #Importing the math questions text file
-file_name="Math/mathGUIchanges.txt"
+file_name="Math/MathQuestions.txt"
 
 #Show frame selected
 def show_frame(self, page_name):
