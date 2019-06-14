@@ -1,4 +1,4 @@
-grade_9|The y intercept of f(x) = (x+4)^2-1? is (0,10)(0,15)|False
+grade_9|The y intercept of f(x) = (x+4)^2-1? is (0,10)|False
 grade_9|The x intercept of f(x) = x^2-8x+16? is (4,0)|True
 grade_9|The y intercept of f(x) = x^2+4x-3 is (0,-2)|False
 grade_9|The positive x intercept of f(x) = x^2+5-9? is (4,0)|False
@@ -12,14 +12,14 @@ grade_9|The y intercept of f(x) = (x-7)(x-8) is (0,-56)|False
 grade_9|The y intercept of f(x) = (x+4)^2-7 is (0,-4)|False
 
 grade_10|Is x=y^2+4y-5 a function?|False
-grade_10|Is y=-2(x-3)^2-9 a function?True
+grade_10|Is y=-2(x-3)^2-9 a function?|True
 grade_10|Is x^2+y^2=36 a function?|True 
 grade_10|Is f(t)=-t+3t-7 a function?|True
 grade_10|Is f(x)=4/5x-7 a function?|True 
 grade_10|Is f(m)=3(m+4)^2-2 a function?|True 
 grade_10|The parent function of f(x)=x^2+5x-6 is f(x)=x|False 
-grade_10|What is the parent function of f(x)=5x-8 is 1/x|False 
-grade_10|What is the parent function of f(x)=2/x+3 is 1/x|True
+grade_10|The parent function of f(x)=5x-8 is 1/x|False 
+grade_10|The parent function of f(x)=2/x+3 is 1/x|True
 grade_10|The domain is related to the y axis of a function|False
 grade_10|The range is related to the y axis of a function|True
 

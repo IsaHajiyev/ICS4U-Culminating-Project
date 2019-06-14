@@ -9,7 +9,8 @@ score_index = 2
 trivia = Trivia()
 #grade_idx = list()
 
-file_name="Math/math_questions_test.txt"
+#Importing the math questions text file
+file_name="Math/mathGUIchanges.txt"
 
 #Show frame selected
 def show_frame(self, page_name):
@@ -20,7 +21,14 @@ def show_frame(self, page_name):
     return frame
 
 #Show score
-def check_score():
+def check_score(labelScore):
+    if(int(trivia.score) == int(trivia.max_score)):
+        labelScore.config(text="Congratulations! Your score is max: " + str(trivia.score), fg = "red")
+    elif(int(trivia.score) < int(trivia.max_score)/2):
+        labelScore.config(text="The score is: " + str(trivia.score) + " out of " + str(trivia.max_score) + ". Not passed.")
+    else:
+        labelScore.config(text="The score is: " + str(trivia.score) + " out of " + str(trivia.max_score))
+    
     print("The score is:" + str(trivia.score))
 
 #Configuration for the scrollbar
@@ -226,8 +234,8 @@ class MathGUI(tk.Frame):
         spacer.pack(side="right", anchor="w")
         
         tk_grade_var = tk.StringVar(self)
-        data = {'9','10','11','12'}
-        tk_grade_var.set('10') #set the default option
+        data = {'9','10','11'}
+        tk_grade_var.set('9') #set the default option
           
         gradeMenu = tk.OptionMenu(header, tk_grade_var, *sorted(data), command=lambda item=tk_grade_var: gradeMenu_callback(self, item, frame, controller))
         gradeMenu.pack(side="right", anchor="w") 
@@ -417,8 +425,10 @@ class MathGUI(tk.Frame):
         form.bind("<Configure>", lambda event, canvas=canvas: scroll_config(event, canvas))
         '''
         #eof Questions
-
-        score_button = tk.Button(self, text="Check Score", command = lambda:check_score())
+        labelScore = tk.Label(self, text=" Please make your selection!",font = "Helvetica 12 bold italic")
+        labelScore.pack(side="left", fill="x", pady=10)
+        
+        score_button = tk.Button(self, text="Check Score", command = lambda:check_score(labelScore))
         score_button.config( height = 2, width = 20 )
         score_button.pack()  
         
