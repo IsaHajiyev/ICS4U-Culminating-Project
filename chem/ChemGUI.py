@@ -9,7 +9,7 @@ score_index = 2
 trivia = Trivia()
 #grade_idx = list()
 
-file_name="chem/chem_questions_test.txt"
+file_name="chem/chem_questions.txt"
 
 #Show frame selected
 def show_frame(self, page_name):
