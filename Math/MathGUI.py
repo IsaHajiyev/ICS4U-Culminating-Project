@@ -25,7 +25,7 @@ def check_score(labelScore):
     if(int(trivia.score) == int(trivia.max_score)):
         labelScore.config(text="Congratulations! Your score is max: " + str(trivia.score), fg = "red")
     elif(int(trivia.score) < int(trivia.max_score)/2):
-        labelScore.config(text="The score is: " + str(trivia.score) + " out of " + str(trivia.max_score) + ". Not passed.")
+        labelScore.config(text="The score is: " + str(trivia.score) + " out of " + str(trivia.max_score) + ". You did not pass.")
     else:
         labelScore.config(text="The score is: " + str(trivia.score) + " out of " + str(trivia.max_score))
     

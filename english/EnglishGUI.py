@@ -9,7 +9,7 @@ score_index = 2
 trivia = Trivia()
 #grade_idx = list()
 
-file_name="english/english_questions_test.txt"
+file_name="english/EnglishQuestions.txt"
 
 #Show frame selected
 def show_frame(self, page_name):
@@ -24,7 +24,7 @@ def check_score(labelScore):
     if(int(trivia.score) == int(trivia.max_score)):
         labelScore.config(text="Congratulations! Your score is max: " + str(trivia.score), fg = "red")
     else:
-        labelScore.config(text="The score is: " + str(trivia.score) + " out of " + str(trivia.max_score))
+        labelScore.config(text="The score is: " + str(trivia.score) + " out of " + str(trivia.max_score) + ". You did not pass.")
     
     print("The score is:" + str(trivia.score))
 
