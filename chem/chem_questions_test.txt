@@ -1,5 +1,5 @@
 grade_9|Elements consist of only one type of atom.|True
-grade_9|As you move left along the periodic table, the atomic number of the elements tends to decrease.|True
+grade_9|Moving left along the periodic table, the atomic number of the elements tends to decrease.|True
 grade_9|Nobel gasses are highly reactive.|False
 grade_9|Gas/bubbles forming is an indicator of a Chemical Reaction.|True
 grade_9|An ionic compound is the result of the bonding of two nonmetals.|False
@@ -35,9 +35,9 @@ grade_12|The liquid state of matter is included in the K calculation.|False
 grade_12|The Law of Equilibrium states that K cannot be 0 or under.|True
 grade_12|Constant Addition of Substances is requirement for Equilibrium.|False
 grade_12|Constant Temperature and External Pressure is a requirement for Equilibrium.|True
-grade_12|Chemistry Question 5 grade_12|False
-grade_12|Chemistry Question 6 grade_12|True
-grade_12|Chemistry Question 7 grade_12 |False
-grade_12|Chemistry Question 8 grade_12|True
-grade_12|Chemistry Question 9 grade_12|True
-grade_12|Chemistry Question 10 grade_12|False
+grade_12|Neon is an example of a Halogen and it has achieved stability and so is unreactive.|False
+grade_12|Isotopes are different varieties of the same element.|True
+grade_12|In a covalent bond, atoms share outermost electrons to achieve stability.|True
+grade_12|Electrons travel in paths called "orbitals" which occur at distinct shells.|True
+grade_12|The first ten elements of the periodic table in correct order are: H, He, Li, Be, B.|True
+grade_12|Valence electrons are the innermost electrons in an atom.|False
